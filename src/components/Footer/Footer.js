@@ -44,13 +44,13 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Navigation Links</LinkTitle>
-          <LinkItem href="#projects">Projects</LinkItem>
-          <LinkItem href="#tech">Technologies</LinkItem>
-          <LinkItem href="#about">About</LinkItem>
-          <LinkItem href="#contact">Contact Me</LinkItem>
+          <LinkItem className="projects" href="#projects">Projects</LinkItem>
+          <LinkItem className="technologies" href="#tech">Technologies</LinkItem>
+          <LinkItem className="About" href="#about">About</LinkItem>
+          <LinkItem className="Contact Me" href="#contact">Contact Me</LinkItem>
         </LinkColumn>
       </LinkList>
-      <SectionSubText>Handcrafted @ TwentyTwenty-three&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Nicolas Ayca © 2023</SectionSubText>
+      <SectionSubText>Handcrafted @ 2023&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Nicolas Ayca © 2023</SectionSubText>
     </FooterWrapper>
   );
 };
