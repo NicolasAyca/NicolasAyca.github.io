@@ -25,8 +25,7 @@ function ContactMeButton(props) {
       <Modal
         title="Get in Touch, I'd love to hear from you!📪"
         maskStyle={{
-          backgroundColor: "rgba(51, 50, 58, .3)", 
-          backdropFilter: "blur(5px)",
+          backgroundColor: "rgba(0,20,64, .9)", 
         }}
         bodyStyle={{
           alignContent:"center",
@@ -41,21 +40,21 @@ function ContactMeButton(props) {
       >
         <Section>
           <form
-            style={{ display:"box"}}
+            style={{ display:"box", paddingLeft:"6vh"}}
             action="https://public.herotofu.com/v1/4bd149a0-9b41-11ed-82c7-3d7607318e65"
             method="post"
           >
             <div>
               <label for="name">Your Name</label>
               <br />
-              <input name="Name" id="name" type="text" required style={{width:"30rem"}}/>
+              <input name="Name" id="name" type="text" required style={{width:"auto"}}/>
             </div>
             <div>
               <label for="email" id="contact-lbl-email">
                 Your Email
               </label>
               <br />
-              <input name="Email" id="email" type="email" required style={{width:"30rem"}}/>
+              <input name="Email" id="email" type="email" required style={{width:"auto"}}/>
             </div>
             <div>
               <label for="email" id="contact-lbl-msg">
@@ -64,7 +63,7 @@ function ContactMeButton(props) {
               <br />
               <textarea
                 required
-                style={{width:"30rem", height:"15rem"}}
+                style={{width:"auto", height:"15rem"}}
                 name="comments"
                 rows="15"
                 placeholder="whether you want to work with me or want more information this is the space where we can start talking!"
@@ -81,7 +80,7 @@ function ContactMeButton(props) {
                   padding: "1.5rem",
                   fontWeight: "bold",
                   borderRadius: "20px",
-                  width: "20rem",
+                  width: "auto",
                 }}
               />
             </div>
