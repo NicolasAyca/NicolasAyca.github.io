@@ -43,7 +43,9 @@ const Prices = () => (
           <Hr />
         </BlogCard>
       ))}
+      
     </GridContainer>
+    <TitleContent>*ALL PRICES SHOWN IN THE CARDS, MAKE REFERENCE TO THE "LANDING PAGE", "PROMOTIONAL" AND/OR "PROFESSIONAL PORTFOLIO" TYPE OF WEBPAGE, IF YOU NEED ANOTHER TYPE WEB SERVICE PLEASE CONTACT ME TO GET THE PRICE FOR YOUR REQUIREMENT.*</TitleContent>
     <Section nopadding>
     <br/>
     <br/>
