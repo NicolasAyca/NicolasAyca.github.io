@@ -6,19 +6,18 @@ import {
 import Button from "../../styles/GlobalComponents/Button";
 import ContactMeButton from "../ContactMe/ContactMeButton";
 import { LeftSection } from "./HeroStyles";
+import { BsRocketTakeoff } from 'react-icons/bs';
 
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        A Engineer, Developer & Designer for you.
+        Give your business the best chance to grow.&nbsp;&nbsp;&nbsp;<BsRocketTakeoff/>
       </SectionTitle>
       <SectionText>
-        I am a recent graduate web developer from Chile 🇨🇱 with skills in HTML,
-        CSS, JavaScript, React, and Node.js. My portfolio features responsive
-        designs, optimized website performance, and robust security measures. I
-        am looking for opportunities to apply my skills and continue to grow as
-        a developer. My portfolio is the best way to know more about my skills.
+        Frontend Developer with a passion for building beautiful and functional
+        Websites, that help to grow your business and provide the best user experience for
+        your clients, make your services memorables.
       </SectionText>
       <ContactMeButton name="Contact Me 📨" />
     </LeftSection>

@@ -23,7 +23,7 @@ export const Span = styled.span`
 `;
 
 export const Div1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
+  grid-area: 1 / 1 / 2 / 1;
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -32,9 +32,9 @@ export const Div1 = styled.div`
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: 1 / 2 / 1 / 4;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -52,9 +52,9 @@ export const Div3 = styled.div`
 
 // Navigation Links
 export const NavLink = styled.a`
-  font-size: 2rem;
-  line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.8rem;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 1);
   transition: 0.4s ease;
   &:hover {
     color: #fff;

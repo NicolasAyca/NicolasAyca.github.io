@@ -22,7 +22,7 @@ const Technologies = () => (
     <SectionText>
       My front-end web development skills include expertise in HTML, CSS,
       JavaScript and React. These technologies allow me to create
-      responsive, interactive and visually appealing user interfaces.<br/><br/>My
+      responsive, interactive and visually appealing web pages.<br/><br/>My
       portfolio demonstrates my proficiency in building dynamic websites and web
       applications with a focus on optimization, user experience and search
       engine visibility.

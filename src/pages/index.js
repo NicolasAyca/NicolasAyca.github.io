@@ -2,6 +2,7 @@ import Acomplishments from '../components/Acomplishments/Acomplishments';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import ContactMe from '../components/ContactMe/ContactMe';
 import Hero from '../components/Hero/Hero';
+import Prices from '../components/Prices/Prices';
 import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
@@ -18,6 +19,7 @@ const Home = () => {
       <Projects />
       <Technologies />
       <Timeline />
+      <Prices />
       {/* <Acomplishments /> */}
       <ContactMe/>
     </Layout>

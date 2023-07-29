@@ -15,6 +15,7 @@ import {
   Section,
   SectionDivider,
   SectionText,
+  SectionText2,
   SectionTitle
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
@@ -94,11 +95,15 @@ const Timeline = () => {
         />
       </svg>
       <SectionTitle>About Me</SectionTitle>
+      <SectionText2>
+        Experienced Front-end Developer with a demonstrated history of working
+        with high quality on clients projects, to provide the best user
+        experience for their business.<br/><br/>Skilled in React, JavaScript, HTML, CSS,
+        and more.
+      </SectionText2>
       <SectionText>
-        I am a recently graduated front-end developer with a strong foundation
-        in HTML, CSS, JavaScript, and React. <br />
-        <br />I am eager to apply my knowledge in real-world projects and
-        continue to grow as a developer.
+        Strong engineering professional with a Bachelor's degree focused in
+        Software Enginering from the Technology University of chile INACAP.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
